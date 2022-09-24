@@ -1,0 +1,8 @@
+Javascript engine runs on a V8 engine that has a memory heap and a call stack.
+
+Single Threaded js:-
+js is the Single Threaded Language.
+JS is a single threaded which means only one statement is executed at a time.
+
+    so,Multi Threaded Language:- Multithreading allows multiple concurrent tasks can be performed within a single process.
+        ex.Java Language
