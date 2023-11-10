@@ -175,6 +175,68 @@
 // console.log(a)
 // console.log(b)
 
+//two sum (find pair)
+// function twoSum(data, target) {
+//     for (let index = 0; index < data.length; index++) {
+//         let current = target - data[index];
+//         if (data.indexOf(Math.abs(current)) > 0) {
+//             return [index, data.indexOf(current)]
+//         }
+//     }
+//     return [];
+// }
+// const result = twoSum([4, 8, 5, 0], 9);
+// console.log(result);
+
+//remove duplicate elements
+// let arr = [1, 2, 3, 1, 2, 3]
+
+//1
+// let sets = new Set(arr)
+// arr = [...sets]
+//2
+// let result = arr.filter((value, index, self) => {
+//     return self.indexOf(value) === index
+// })
+
+// let num = 12345, temp;
+
+// function reverse(num) {
+//     let str = num + '';
+//     let splited = str.split("")
+//     for (let i = 0; i < splited.length / 2; i++) {
+//         let temp = parseInt(splited[i]);
+//         splited[i] = parseInt(splited[splited.length - 1 - i]);
+//         splited[splited.length - 1 - i] = temp
+//     }
+//     return parseInt(splited.join(""))
+// }
+// console.log(reverse(num))
+
+//find day when you sell the stock and find a day when you buy
+// let arr = [4, 2, 7, 1, 3, 4, 8]
+// function checkStock(arr) {
+//     let sellDay = arr.indexOf(Math.min(...arr)) + 1
+//     let buyDay = arr.indexOf(Math.max(...arr.slice(sellDay))) + 1
+//     return { sellDay: sellDay, buyDay: buyDay }
+// }
+// console.log(checkStock(arr));
+
+//reverse word
+
+//1
+// function reverseWord(str) {
+//     let data = str.trim()
+//     let result = data.split(" ").reverse()
+//     return result;
+// }
+// console.log(reverseWord("  hello world  "));
+
+// function reverseWord(str) {
+//     return str.trim().split(" ").filter(Boolean).reverse().join(" ");
+// }
+// console.log(reverseWord("  hello world  "));
+
 //simple task last one print and...
 
 // let arr=['apple','banana','mango','orange','chicoo']
