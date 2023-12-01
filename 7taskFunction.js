@@ -44,6 +44,15 @@
 //     obj[key[i]]=values[i];
 // }
 // console.log(obj)
+
+// //fibonacci series dynamically mode
+// let fibseries = [];
+// for (let i = 0; i < 10; i++) {
+//     if (i == 0) fibseries[i] = i
+//     else if (i == 1) fibseries[i] = i;
+//     else fibseries[i] = fibseries[i - 1] + fibseries[i - 2]
+// }
+// console.log(fibseries);
                 
 
 //store value in object
