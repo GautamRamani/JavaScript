@@ -1,3 +1,25 @@
+// let a = {
+//     "names": "gautam"
+// }
+
+//update value
+// a.names="yaman"
+// a["names"]='yaman'
+// a= {...a,"names":"yaman"}
+
+//delete key-value
+// delete a.names;
+
+//update key
+// a.name= a.names;
+// delete a.names
+
+// a["name"] = a["names"]
+// delete a["names"]
+
+// a = { ...a, name: a.names }
+// delete a.names;
+
 // // take 30 element and print onle even number or odd number
 // let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],arr1=[];
 // for(var i=0;i<arr.length;i++){
