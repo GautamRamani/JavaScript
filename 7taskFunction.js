@@ -104,6 +104,20 @@
 // var obj={'even':even,"odd":odd}
 // console.log(obj)
 
+// task do not use condition
+// let x = "yellow"
+// if (x == "yellow") {
+//     console.log("inside yellow");
+// } else if (x == "pinaple") {
+//     console.log("inside pinapple");
+// }
+
+// soln
+//let arr = ["red", "yellow", "blue"];
+// let target = "blue";
+// let result = arr.includes(target) && "color is red";
+// console.log(result);
+
 
 //array of object
 // let key_val_arr=[
