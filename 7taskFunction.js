@@ -401,6 +401,44 @@
 // const result = twoSum([4, 8, 5, 0], 9);
 // console.log(result);
 
+//another way
+// let arr = [10, 5, 3, 7, 4, 2], obj = {}, target = 5, res = [];
+// function test(arr, target) {
+//     for (let i = 0; i < arr.length; i++) {
+//         let sum = target - arr[i];
+//         if (obj[sum]) {
+//             return [sum, arr[i]]
+//         } else {
+//             obj[arr[i]] = 1
+//         }
+//     }
+// }
+// console.log(test(arr, target));
+
+//get pairs whose sum is equal target for + and -
+// let arr = [10, 5, 3, 7, 4, 2, 1], obj = {}, obj_2 = {}, target = 5, res = [];
+// function test(arr, target) {
+//     for (let i = 0; i < arr.length; i++) {
+//         let sum = target - arr[i];
+//         if (obj[sum]) {
+//             res.push([sum, arr[i]])
+//         } else {
+//             obj[arr[i]] = 1
+//         }
+//         let sum_1 = arr[i] + target;
+//         if (arr[i] > target) {
+//             sum_1 = arr[i] - target
+//         }
+//         if (obj_2[sum_1]) {
+//             res.push([sum_1, arr[i]])
+//         } else {
+//             obj_2[arr[i]] = 1
+//         }
+//     }
+// }
+// test(arr, target);
+// console.log(res);
+
 //remove duplicate elements
 // let arr = [1, 2, 3, 1, 2, 3]
 
