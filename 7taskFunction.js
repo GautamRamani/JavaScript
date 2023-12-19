@@ -509,6 +509,33 @@
 // }
 // console.log(reverseWord("  hello world  "));
 
+//build tree
+// const filesArray = [
+//     { name: 'Folder 1', parent: 'Root' },
+//     { name: 'File 1.1.txt', parent: 'Folder 1', isFile: true },
+//     { name: 'File 1.2.txt', parent: 'Folder 1', isFile: true },
+//     { name: 'Folder 2', parent: 'Root' },
+//     { name: 'File 2.1.txt', parent: 'Folder 2', isFile: true },
+//     { name: 'File 2.2.txt', parent: 'Folder 2', isFile: true },
+//     { name: 'Folder 2.1', parent: 'Folder 2' },
+//     { name: 'File 2.1.1.txt', parent: 'Folder 2.1', isFile: true },
+// ];
+
+// function buildTree(filesArray, parent) {
+//     let tree = {};
+//     filesArray.filter(file => file.parent == parent)
+//         .forEach(file => {
+//             if (file.isFile) {
+//                 tree[file.name] = true;
+//             } else {
+//                 tree[file.name] = buildTree(filesArray, file.name)
+//             }
+//         })
+//     return tree;
+// }
+// let fileTree = buildTree(filesArray, "Root")
+// console.log(JSON.stringify(fileTree, null, 2));
+
 //simple task last one print and...
 
 // let arr=['apple','banana','mango','orange','chicoo']
