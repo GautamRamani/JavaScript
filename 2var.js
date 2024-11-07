@@ -25,6 +25,9 @@
 // ECMA-262, 10th edition, June 2019
 // ECMA-262, 11th edition, June 2020
 // ECMA-262, 12th edition, June 2021
+// ECMA-262, 13th edition, June 2022
+// ECMA-262, 14th edition, June 2023
+// ECMA-262, 15th edition, June 2024
 
 // var sub_one = "C Language";
 // var sub_two = 'C++';
