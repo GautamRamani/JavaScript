@@ -409,56 +409,25 @@
 // console.log(a)
 // console.log(b)
 
-//two sum (find pair)
-// function twoSum(data, target) {
-//     for (let index = 0; index < data.length; index++) {
-//         let current = target - data[index];
-//         if (data.indexOf(Math.abs(current)) > 0) {
-//             return [index, data.indexOf(current)]
-//         }
-//     }
-//     return [];
-// }
-// const result = twoSum([4, 8, 5, 0], 9);
-// console.log(result);
+// function findPair(arr, target) {
+//     let pairs = [];
+//     let seen = new Set();
 
-//another way
-// let arr = [10, 5, 3, 7, 4, 2], obj = {}, target = 5, res = [];
-// function test(arr, target) {
 //     for (let i = 0; i < arr.length; i++) {
-//         let sum = target - arr[i];
-//         if (obj[sum]) {
-//             return [sum, arr[i]]
-//         } else {
-//             obj[arr[i]] = 1
-//         }
-//     }
-// }
-// console.log(test(arr, target));
+//         let num = arr[i]
+//         let complement = target - num;
 
-//get pairs whose sum is equal target for + and -
-// let arr = [10, 5, 3, 7, 4, 2, 1], obj = {}, obj_2 = {}, target = 5, res = [];
-// function test(arr, target) {
-//     for (let i = 0; i < arr.length; i++) {
-//         let sum = target - arr[i];
-//         if (obj[sum]) {
-//             res.push([sum, arr[i]])
-//         } else {
-//             obj[arr[i]] = 1
+//         if (seen.has(complement)) {
+//             let pair = [Math.min(num, complement), Math.max(num, complement)]
+//             pairs.push(pair)
 //         }
-//         let sum_1 = arr[i] + target;
-//         if (arr[i] > target) {
-//             sum_1 = arr[i] - target
-//         }
-//         if (obj_2[sum_1]) {
-//             res.push([sum_1, arr[i]])
-//         } else {
-//             obj_2[arr[i]] = 1
-//         }
+//         seen.add(num)
 //     }
+//     return pairs;
 // }
-// test(arr, target);
-// console.log(res);
+
+// console.log(findPair([1, 4, 5, 2], 9));
+//arr value set in seen and check if complement exists in seen prepare pair 
 
 //remove duplicate elements
 // let arr = [1, 2, 3, 1, 2, 3]
