@@ -409,25 +409,23 @@
 // console.log(a)
 // console.log(b)
 
+//find pair by set
 // function findPair(arr, target) {
+//     let set = new Set()
 //     let pairs = [];
-//     let seen = new Set();
-
 //     for (let i = 0; i < arr.length; i++) {
-//         let num = arr[i]
-//         let complement = target - num;
-
-//         if (seen.has(complement)) {
-//             let pair = [Math.min(num, complement), Math.max(num, complement)]
-//             pairs.push(pair)
+//         let num = arr[i];
+//         let diff = target - arr[i];
+//         if (set.has(diff)) {
+//             pairs.push([diff, num]);
+//         } else {
+//             set.add(num);
 //         }
-//         seen.add(num)
 //     }
 //     return pairs;
 // }
-
-// console.log(findPair([1, 4, 5, 2], 9));
-//arr value set in seen and check if complement exists in seen prepare pair 
+// console.log(findPair([10, 5, 3, 7, 4, 2, -1], 9));
+//arr value set in seen and check if diff exists in seen prepare pair 
 
 //remove duplicate elements
 // let arr = [1, 2, 3, 1, 2, 3]
