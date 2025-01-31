@@ -437,6 +437,14 @@
 // let result = arr.filter((value, index, self) => {
 //     return self.indexOf(value) === index
 // })
+//3
+// const arr = [1, 2, 3, 1, 2, 3]
+// const result = []
+// for (let i = 0; i < arr.length; i++) {
+//     if(!result.includes(arr[i])){
+//         result.push(arr[i]);
+//     }
+// }
 
 // let num = 12345, temp;
 
