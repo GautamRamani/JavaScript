@@ -445,6 +445,19 @@
 //         result.push(arr[i]);
 //     }
 // }
+//4
+// for (let i = 0; i < arr.length; i++) {
+//     let unique = true
+//     for (let j = 0; j < i; j++) {
+//         if (arr[i] == arr[j]) {
+//             unique = false
+//             break
+//         }
+//     }
+//     if (unique) {
+//         result[result.length] = arr[i]
+//     }
+// }
 
 // let num = 12345, temp;
 
